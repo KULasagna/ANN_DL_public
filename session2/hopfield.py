@@ -40,6 +40,10 @@ class HopfieldNetwork:
             'Hebb': np.sign,
             'LSSM': lambda x: np.clip(x, -1, 1)  # Saturating linear function
         }.get(alg)
+        self.int_inv_tf = {  # Integrated inverse of the transfer function
+            'Hebb': np.zeros_like,  # Not defined
+            'LSSM': lambda x: x * x / 2
+        }.get(alg)
 
     def _set_weights(self, targets, alg):
         self.D, T = targets.shape
@@ -158,6 +162,7 @@ class HopfieldNetwork:
         """
         s = np.atleast_2d(s)  # Shape (P, D)
         e = -0.5 * np.sum((s @ self.W) * s, axis=1, keepdims=True) - s @ self.b.T  # Vectorized version of - 1/2 s^T W s - s^T b
+        e += np.sum(self.int_inv_tf(s), axis=1, keepdims=True)  # Vectorized version of sum_{i=1}^D int_{0}^{s_i} g^{-1}(z) dz (see energy equation on page 1407 of [LSSM] or lecture slide 19)
         return np.squeeze(e)
 
     @staticmethod
