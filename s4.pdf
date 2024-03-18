@@ -3555,14 +3555,14 @@ stream
 /Type /Annot
 /Border[0 0 0]/H/I/C[0 1 1]
 /Rect [130.29 374.878 183.827 386.866]
-/Subtype/Link/A<</Type/Action/S/URI/URI(https://colab.research.google.com/github/KULasagna/ANN_DL_public/blob/master/session4/dbm.ipynb)>>
+/Subtype/Link/A<</Type/Action/S/URI/URI(https://colab.research.google.com/github/KULasagna/ANN_DL_public/blob/master/session4/DBM.ipynb)>>
 >>
 % 43 0 obj
 <<
 /Type /Annot
 /Border[0 0 0]/H/I/C[0 1 1]
 /Rect [185.118 325.129 238.655 337.033]
-/Subtype/Link/A<</Type/Action/S/URI/URI(https://colab.research.google.com/github/KULasagna/ANN_DL_public/blob/master/session4/rbm.ipynb)>>
+/Subtype/Link/A<</Type/Action/S/URI/URI(https://colab.research.google.com/github/KULasagna/ANN_DL_public/blob/master/session4/RBM.ipynb)>>
 >>
 % 44 0 obj
 <<
@@ -3655,14 +3655,14 @@ stream
 /Type /Annot
 /Border[0 0 0]/H/I/C[0 1 1]
 /Rect [181.176 706.109 234.713 718.096]
-/Subtype/Link/A<</Type/Action/S/URI/URI(https://colab.research.google.com/github/KULasagna/ANN_DL_public/blob/master/session4/dbm.ipynb)>>
+/Subtype/Link/A<</Type/Action/S/URI/URI(https://colab.research.google.com/github/KULasagna/ANN_DL_public/blob/master/session4/DBM.ipynb)>>
 >>
 % 65 0 obj
 <<
 /Type /Annot
 /Border[0 0 0]/H/I/C[0 1 1]
 /Rect [347.45 302.688 400.987 314.592]
-/Subtype/Link/A<</Type/Action/S/URI/URI(https://colab.research.google.com/github/KULasagna/ANN_DL_public/blob/master/session4/gan.ipynb)>>
+/Subtype/Link/A<</Type/Action/S/URI/URI(https://colab.research.google.com/github/KULasagna/ANN_DL_public/blob/master/session4/GAN.ipynb)>>
 >>
 % 66 0 obj
 <<
@@ -4021,8 +4021,8 @@ endobj
 <<
 /Producer (pdfTeX-1.40.26)
 /Author()/Title()/Subject()/Creator(LaTeX with hyperref)/Keywords()
-/CreationDate (D:20240318112848Z)
-/ModDate (D:20240318112848Z)
+/CreationDate (D:20240318113347Z)
+/ModDate (D:20240318113347Z)
 /Trapped /False
 /PTEX.Fullbanner (This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) kpathsea version 6.4.0)
 >>
@@ -4065,7 +4065,7 @@ endobj
 /W [1 3 1]
 /Root 123 0 R
 /Info 124 0 R
-/ID [<B83318A85ECEF2285663AD4D918340E3> <B83318A85ECEF2285663AD4D918340E3>]
+/ID [<E0DD4AF3F5832FBFC245108B6399DD54> <E0DD4AF3F5832FBFC245108B6399DD54>]
 /Length 630       
 >>
 stream
